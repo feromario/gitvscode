@@ -3,11 +3,11 @@ class Hello {
         System.out.println("Hello GitHub");
     }
 
-    public static int add(int a, int b) {
+    public static int add(int a, int b) { // adding
         return a + b;
     }
 
-    public static int subtract(int a, int b) {
+    public static int subtract(int a, int b) { // subtracting
         return a - b;
     }
 
@@ -15,7 +15,11 @@ class Hello {
         return a * b;
     }
 
-    public static void main(String[] args) {
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) { 
         printHello();
         int sum = add(5, 3);
     }
